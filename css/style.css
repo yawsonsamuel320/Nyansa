@@ -1,0 +1,139 @@
+body {
+
+    font-weight: 300;
+    font-size: 1.1 rem;
+}
+
+.text-black {
+  color: #000 !important; }
+
+.text-gray {
+    color: gray !important;
+}
+
+btn-gold {
+    background-color: blue !important;
+}
+
+.home-page-carousel{
+    border-bottom: solid 10px;
+    border-color: gold;
+}
+
+section {
+    padding: 60px 0;
+    margin-top: 150px;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.section-title-underline {
+    margin-top: 3rem;
+    padding-bottom: 0;
+}
+
+
+.section-title-underline {
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+    position: relative;
+    font-size: 2.5rem; }
+    @media (min-width: 768px) {
+      .site-section-title {
+        font-size: 3rem; } }
+
+        .section-title-underline {
+            color: #000; }
+            .section-title-underline span {
+              display: inline-block;
+              border-bottom: 4px solid rgb(46, 170, 252); }
+            .section-title-underline.style-2 {
+              color: #fff; }
+              .section-title-underline.style-2 span {
+                border-color: #51be78; }
+
+.feature {
+    position: relative;
+    width: 50px;
+    margin: 0 10px;
+    margin-top: 10px;
+    padding: 0 20px !important;
+    background: white;
+    display: inline-block;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    font-family: "Helvetica Neue",sans-serif;
+    font-weight: lighter;
+}
+
+
+.site-navbar {
+    z-index: 9;
+    position: absolute;
+    width: 100%;
+    padding: 1rem;
+ }
+
+.site-navbar.light a {
+    color: #fff;
+}
+
+.site-navbar .site-logo {
+    margin: 0;
+    padding: 0;
+    font-size: 1.7rem;
+}
+
+    .site-navbar .site-logo  a:hover{
+        text-decoration: none;
+        color: #fafafacb
+
+    } 
+
+.site-navbar.light .site-menu li a {
+    color: #fff; 
+}
+    
+    .site-navbar.light .site-menu li a:hover {
+         color: rgb(228, 215, 215); 
+    }                
+
+.site-navbar .site-menu > li {
+    display: inline-block; }
+
+.site-navbar .site-menu > li > a {
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 30px 0px;
+    color: rgba(0, 0, 0, 0.7);
+    display: inline-block;
+    text-decoration: none !important; }
+
+.section-upload .card{
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+
+}
+
+footer {
+    margin-top: 150px;
+    margin-bottom: 0;
+    padding: 50px;
+    width: 100%;
+    border-top: solid;
+    border-color: rgba(224, 224, 224, 0.144); ;
+    background-color: gold;
+}
