@@ -1,0 +1,42 @@
+html{
+    background: url("../images/login-back.jpg") no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+
+#content-container{
+    margin: 0 auto;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    right: 10%;
+    border: 1px solid #490bbb;
+    border-radius: 5px;
+    padding-bottom: 50px;
+    padding-top: 25px;
+    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.9);
+    
+}
+
+form{
+    position: relative;
+    top: 15px;
+}
+
+.btn{
+    position: relative;
+    left: 80%;
+}
+
+.active{
+    background-color: #ffb606 !important;
+
+}
+
+#login-wrapper{
+    display:none;
+}
